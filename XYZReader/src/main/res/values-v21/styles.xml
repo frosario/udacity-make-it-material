@@ -1,0 +1,4 @@
+<resources>
+    <style name="Materialized" parent="android:Theme.Material">
+    </style>
+</resources>
