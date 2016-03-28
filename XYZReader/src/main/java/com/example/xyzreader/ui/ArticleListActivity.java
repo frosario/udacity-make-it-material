@@ -47,50 +47,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         getLoaderManager().initLoader(0, null, this);
         if (savedInstanceState == null) { refresh(); }
 
-
-
-
-
-//        mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
-//            AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.app_bar_layout);
-//
-//            @Override
-//            public void onScrolled(RecyclerView view, int horizontalScroll, int verticalScroll) {
-//
-//                if (verticalScroll > previousScroll) {
-////                    actionbar.hide();
-//                    appBarLayout.setVisibility(View.GONE);
-//                    previousScroll = verticalScroll;
-//                } else {
-////                    actionbar.show();
-//                    appBarLayout.setVisibility(View.VISIBLE);
-//                    previousScroll = verticalScroll;
-//                }
-//            }
-//        });
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     private void refresh() {
         startService(new Intent(this, UpdaterService.class));
