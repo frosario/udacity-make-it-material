@@ -32,7 +32,7 @@
             app:expandedTitleMarginStart="48dp"
             app:expandedTitleMarginEnd="64dp"
             android:fitsSystemWindows="true"
-            android:background="#757575">
+            android:background="@color/theme_primary">
 
             <ImageView
                 android:layout_width="wrap_content"
