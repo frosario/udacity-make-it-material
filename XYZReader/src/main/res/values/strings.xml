@@ -11,4 +11,5 @@
     <string name="photo">Photo</string>
     <string name="article_byline">Article Byline</string>
     <string name="article_body">Article Body</string>
+    <string name="image">Image</string>
 </resources>
