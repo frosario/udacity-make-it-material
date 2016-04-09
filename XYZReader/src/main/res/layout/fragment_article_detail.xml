@@ -21,15 +21,15 @@
 
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="300dp"
-                    android:layout_height="300dp"
+                    android:layout_width="@dimen/photo_width"
+                    android:layout_height="@dimen/photo_width"
                     android:layout_gravity="center"
                     android:contentDescription="@string/photo"
                      />
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="@dimen/photo_container_view_height"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
