@@ -43,7 +43,7 @@
             android:paddingLeft="@dimen/article_subtitle_margin_left"
             android:paddingRight="@dimen/article_subtitle_margin_right"
             android:paddingBottom="@dimen/article_subtitle_margin_bottom"
-            android:textColor="#6000"
+            android:textColor="@color/article_subtitle_text_color"
             android:maxLines="1"
             android:singleLine="true"
             android:ellipsize="end"
